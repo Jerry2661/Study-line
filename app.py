@@ -225,8 +225,3 @@ class StudylineApp:
             text.insert("end", f"{index}. {course} - {title}\n   Due: {due_date} ({deadline_text})\n   Priority: {priority} | Estimated time: {hours} hours\n\n")
         text.config(state="disabled")
 
-if __name__ == "__main__":
-    init_db()
-    root = tk.Tk()
-    StudylineApp(root)
-    root.mainloop()
