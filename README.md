@@ -1,33 +1,48 @@
 # Studyline
 
-Studyline is a simple Python desktop app that helps students organize homework by due date and priority.
+Studyline is a simple Python desktop application that helps students organize homework and plan their workload.
 
-## Current Features
+## Current Week 1 Features
 
-- Add homework
-- Save homework with SQLite
-- Display homework in a table
-- Sort homework by due date and priority
-- Mark homework as completed
+- Add homework assignments
+- Save homework using SQLite
+- View homework in a table
+- Edit existing homework
 - Delete homework
+- Mark homework as completed
+- Sort homework by due date and priority
+- Generate a recommended homework order
+- Basic input validation
 
-## Planned Features
+## Homework Information
 
-- Exam calendar
-- Automatic study plan
-- Due-date reminders
-- Daily dashboard
+Each homework item contains course name, assignment name, due date, priority, estimated completion time, and completion status.
 
 ## Technologies
 
 - Python
 - Tkinter
 - SQLite
+- Git / GitHub
 
-## Run the App
+## How to Run
+
+1. Install Python 3.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run:
 
 ```bash
 python app.py
 ```
 
-Python 3 is required. Tkinter is included with most standard Python installations.
+No external Python packages are required for the current version.
+
+## Planned Week 2 Features
+
+- Exam calendar
+- Exam review planner
+- Daily study tasks
+- Deadline reminders
+- Dashboard for upcoming homework and exams
+- Additional testing and interface improvements
