@@ -18,7 +18,7 @@ def init_db():
                 completed INTEGER NOT NULL DEFAULT 0
             )
         """)
-
+        
 class StudylineApp:
     def __init__(self, root):
         self.root = root
