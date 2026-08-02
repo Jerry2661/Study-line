@@ -1,4 +1,4 @@
-# Week 1 Progress Plan
+# Week 1
 
 ## Completed
 
