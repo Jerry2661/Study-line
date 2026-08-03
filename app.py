@@ -5,6 +5,7 @@ from datetime import datetime
 
 DB_NAME = "studyline.db"
 
+
 def init_db():
     with sqlite3.connect(DB_NAME) as conn:
         conn.execute("""
@@ -18,7 +19,8 @@ def init_db():
                 completed INTEGER NOT NULL DEFAULT 0
             )
         """)
-        
+
+
 class StudylineApp:
     def __init__(self, root):
         self.root = root
@@ -224,14 +226,10 @@ class StudylineApp:
                 deadline_text = f"{days_left} days left"
             text.insert("end", f"{index}. {course} - {title}\n   Due: {due_date} ({deadline_text})\n   Priority: {priority} | Estimated time: {hours} hours\n\n")
         text.config(state="disabled")
-            
-        if __name__ == "__main__":
-            init_db()
-            root = tk.Tk()
-            StudylineApp(root)
-            root.mainloop()
 
 
-
-
-
+if __name__ == "__main__":
+    init_db()
+    root = tk.Tk()
+    StudylineApp(root)
+    root.mainloop()
