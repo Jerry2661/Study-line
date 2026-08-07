@@ -3,5 +3,6 @@ __pycache__/
 studyline.db
 .venv/
 venv/
-.idea/
-.vscode/
+dist/
+build/
+*.spec

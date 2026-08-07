@@ -1,1 +1,1 @@
-# No external packages are required for the current version.
+# No external packages required.

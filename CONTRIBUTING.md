@@ -1,9 +1,8 @@
-# Contributing to Studyline
+# Contributing
 
 1. Fork the repository.
 2. Create a new branch.
-3. Make and test your changes.
-4. Commit with a clear message.
-5. Open a pull request describing your changes.
+3. Make and test changes.
+4. Open a pull request with a short description.
 
-Possible contributions include exam planning, reminders, interface improvements, testing, and documentation.
+Possible contributions include interface improvements, better planning logic, notifications, testing, and calendar integration.
